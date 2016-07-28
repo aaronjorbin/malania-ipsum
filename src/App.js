@@ -23,7 +23,7 @@ class App extends Component {
 		  <ParagraphChooser change={this.onParagraphSelect} />
 		  <p>Made With &#9825; by <a href="http://aaron.jorb.in">Aaron Jorbin</a> </p>
         </div>
-		<Speech paragraphs={this.state.paragraphs}  />
+		<Speech paragraphs={this.state.paragraphs} />
       </div>
     );
   }
