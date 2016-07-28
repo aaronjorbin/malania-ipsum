@@ -1,0 +1,20 @@
+{
+  "name": "malania-ipsum",
+  "version": "0.0.1",
+  "private": true,
+  "devDependencies": {
+    "bluebird": "^3.4.1",
+    "fs-promise": "^0.5.0",
+    "react-scripts": "0.1.0"
+  },
+  "dependencies": {
+    "react": "^15.2.1",
+    "react-dom": "^15.2.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject",
+    "mktxt": "node ./bin/mktxt.js"
+  }
+}
